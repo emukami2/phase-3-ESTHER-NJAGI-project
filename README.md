@@ -1,11 +1,13 @@
 BUSINESS UNDERSTANDING
 
 
-In this project the aim was to  predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company. This is a binary classification problem. the first step was to analyze the key factors affecting customers doing business with SyriaTel.I employed  four machine learning models namely:
+In this project the aim was to  predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company. This is a binary classification problem. the first step was to analyze the key factors affecting customers doing business with SyriaTel.I employed  six machine learning models namely:
 1. Logistic Regression
 2. Decison Tree
 3. RandomForestClassifer
 4. Adaboost
+5. K-nearest neighbor
+6. Gradient boosting
 
 
 BUSINESS PROBLEM
@@ -72,8 +74,14 @@ With an AUC of 0.89, the AdaBoost model performs well in distinguishing between 
 The ROC curve shows that the AdaBoost model has a high true positive rate (sensitivity) for most thresholds, indicating it correctly identifies a large proportion of churn instances.
 
 K Nearest Neighbor:
+
 i was able to do my k neraest model , it analysis where as follows The model has a high precision for both classes, indicating that most of the predicted. The model performs well overall with a high accuracy of 0.91
 ![alt text](image-7.png)
+
+Gradient boosting:
+
+The model performed well with an accuracy of 97.9%, this shows it made correct predictions most of the time.The high f1_score,recall and precision for both classes indicates the model is effective in distinguishing both classes.
+
 
 CONCLUSIONS:
 1. the customer churn rate was mostly affected by the international plan, total charges, customer service calls and voice mail messages.
