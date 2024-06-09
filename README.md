@@ -71,6 +71,10 @@ AdaBoost Accuracy: 0.9145427286356822
 With an AUC of 0.89, the AdaBoost model performs well in distinguishing between churn and non-churn customers. The closer the AUC is to 1, the better the model is at making these distinctions.
 The ROC curve shows that the AdaBoost model has a high true positive rate (sensitivity) for most thresholds, indicating it correctly identifies a large proportion of churn instances.
 
+K Nearest Neighbor:
+i was able to do my k neraest model , it analysis where as follows The model has a high precision for both classes, indicating that most of the predicted. The model performs well overall with a high accuracy of 0.91
+![alt text](image-7.png)
+
 CONCLUSIONS:
 1. the customer churn rate was mostly affected by the international plan, total charges, customer service calls and voice mail messages.
 2. Randomforest classifer was the most effective and robust model  for identifying both classes from churn to non churn.
